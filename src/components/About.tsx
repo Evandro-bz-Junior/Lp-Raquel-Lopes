@@ -2,7 +2,7 @@
 
 export default function About() {
     return (
-        <section className="relative w-full h-[550px] overflow-hidden">
+        <section id="about" className="relative w-full h-[550px] overflow-hidden">
 
             <div className="absolute left-0 top-0   h-full">
                 <img src="/images/aboutImage.png"className="w-full h-full object-contain"/>

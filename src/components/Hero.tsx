@@ -2,18 +2,20 @@
 
 export default function Hero() {
     return (
-        <section className="w-full h-[600px] relative overflow-hidden">
+        <section id="hero" className="w-full h-[600px] relative overflow-hidden">
+
             <div
                 className="absolute inset-0 z-20"
                 style={{
-                    background: "linear-gradient(to right, #F9EAE3 0%, #cacaca 42%, transparent 70%)",
+                    background: "linear-gradient(to right, #F9EAE3 20%, #cacaca 40%, transparent 60%)",
+
                 }}
             />
             <div className="absolute right-0 top-0 h-full z-10">
                 <img
                     src="/images/heroimg.png"
                     alt="Hero"
-                    className="h-full object-cover  "
+                    className="h-full object-cover object-right "
                 />
             </div>
 

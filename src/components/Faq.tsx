@@ -7,7 +7,7 @@ import {
 
 export default function Faq() {
     return (
-        <section className=' bg-primary   '>
+        <section id="faq" className=' bg-primary   '>
             <div className="container mx-auto py-9 flex flex-col items-center justify-center text-warm">
                 <h2 className="text-2xl font-bold">Perguntas frequentes</h2>
                 <span className="text-justify mt-2.5">Aqui estão algumas das dúvidas mais comuns de quem busca atendimento psicológico ou avaliação neuropsicológica.</span>

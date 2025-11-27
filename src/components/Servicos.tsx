@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Servicos() {
     return (
-        <section className='container mx-auto py-9 flex flex-col gap-7 items-center justify-center text-primary'>
+        <section id='servicos' className='container mx-auto py-9 flex flex-col gap-7 items-center justify-center text-primary'>
             <h2 className='text-2xl font-bold '>Meus serviços</h2>
             <span className='text-justify'>Ofereço atendimentos psicológicos e avaliações que unem ciência, técnica e acolhimento.
                 <br />O foco é compreender profundamente cada caso e propor intervenções realmente significativas.</span>

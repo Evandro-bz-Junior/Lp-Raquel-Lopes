@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Depoimentos() {
     return (
-        <section className='container mx-auto py-9 flex flex-col gap-7 items-center justify-center text-primary'>
+        <section id='depoimentos' className='container mx-auto py-9 flex flex-col gap-7 items-center justify-center text-primary'>
             <div className='flex flex-col gap-2 items-center justify-center'>
                 <h2 className='text-2xl font-bold '>O que meus pacientes dizem</h2>
                 <span  >O retorno de quem já viveu o processo terapêutico ou passou por uma avaliação é sempre valioso.</span>

@@ -13,16 +13,16 @@ export default function Footer() {
 
                     <div className="w-80">
                         <nav className="flex flex-col text-center gap-2 text-warm  px-5 p-4">
-                            <a href="#" className="hover:underline">Início</a>
-                            <a href="#" className="hover:underline">Serviços</a>
-                            <a href="#" className="hover:underline">Sobre</a>
-                            <a href="#" className="hover:underline">Depoimentos</a>
-                            <a href="#" className="hover:underline">Duvidas</a>
+                            <a href="#header" className="hover:underline">Início</a>
+                            <a href="#servicos" className="hover:underline">Serviços</a>
+                            <a href="#about" className="hover:underline">Sobre</a>
+                            <a href="#depoimentos" className="hover:underline">Depoimentos</a>
+                            <a href="#faq" className="hover:underline">Duvidas</a>
                         </nav>
                     </div>
 
                     <div className="w-80 flex flex-col gap-4 px-5 p-4">
-                        <span>Local de atendimento:<br/> Rua dos Cajueiros, 1250, Nova Betânia, Mossoró/RN, CEP 59618-000.</span>
+                        <span>Local de atendimento:<br /> Rua dos Cajueiros, 1250, Nova Betânia, Mossoró/RN, CEP 59618-000.</span>
                         <span>WhatsApp: (xx) xxxx-xxxx</span>
                         <span>E-mail: contato@raquellopes.com</span>
                     </div>
