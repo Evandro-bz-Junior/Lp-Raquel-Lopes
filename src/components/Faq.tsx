@@ -10,8 +10,8 @@ export default function Faq() {
         <section id="faq" className=' bg-primary   '>
             <div className="container mx-auto py-9 flex flex-col items-center justify-center text-warm">
                 <h2 className="text-2xl font-bold">Perguntas frequentes</h2>
-                <span className="text-justify mt-2.5">Aqui estão algumas das dúvidas mais comuns de quem busca atendimento psicológico ou avaliação neuropsicológica.</span>
-                <div className="w-2/4 mt-6">
+                <span className="w-4/5  lg:w-[800px] text-center mt-2.5">Aqui estão algumas das dúvidas mais comuns de quem busca atendimento psicológico ou avaliação neuropsicológica.</span>
+                <div className="w-4/5 lg:w-3/5 mt-6">
                     <Accordion type="single" collapsible >
                         <AccordionItem value="item-1" className="  rounded-2xl px-5 mb-2.5 bg-warm text-primary">
                             <AccordionTrigger  >Como funciona a primeira sessão?</AccordionTrigger>

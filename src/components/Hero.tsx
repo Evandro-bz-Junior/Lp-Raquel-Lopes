@@ -2,27 +2,43 @@
 
 export default function Hero() {
     return (
-        <section id="hero" className="w-full h-[600px] relative overflow-hidden">
-
+        <section id="hero" className="w-full h-[800px] sm:h-[600px] relative overflow-hidden   items-center py-8">
             <div
-                className="absolute inset-0 z-20"
+                className="absolute inset-0 z-20 sm:hidden"
+                style={{
+                    background: `
+                linear-gradient(
+                    to bottom,
+                    transparent 25%,
+                    #cacaca 60%,
+                    #F9EAE3 70%
+                )
+            `,
+                }}
+            />
+            <div
+                className=" absolute inset-0 z-20 hidden sm:block"
                 style={{
                     background: "linear-gradient(to right, #F9EAE3 20%, #cacaca 40%, transparent 60%)",
 
                 }}
             />
-            <div className="absolute right-0 top-0 h-full z-10">
+            <div className="  absolute -right-20 -top-32  md:right-0 md:top-0 h-full z-10  ">
                 <img
                     src="/images/heroimg.png"
                     alt="Hero"
-                    className="h-full object-cover object-right "
+                    className="h-[700px] md:h-full object-cover object-top-right"
                 />
             </div>
 
-            <div className="absolute inset-0 flex flex-col items-center justify-center  z-40 container mx-40 py-12 w-lg">
+            <div className="  absolute left-0 right-0 md:left-10 md:bottom-0 z-40 px-6
+                    flex flex-col gap-4
+                    bottom-5
+ 
+                    sm:px-0   lg:mx-40 sm:py-12 md:w-sm lg:w-md  ">
                 <div className="flex flex-col gap-4">
-                    <h1 className="text-primary text-3xl font-bold">Cuidados psicológicos personalizados para crianças, adolescentes e adultos</h1>
-                    <span className="text-primary text-xl  font-semibold">Com atenção humana, técnica e individualizada, ajudamos você e sua família a superar desafios emocionais, comportamentais e de aprendizagem.</span>
+                    <h1 className="text-primary text-3xl font-bold leading-tight sm:max-w-[350px] lg:max-w-[500px]">Cuidados psicológicos personalizados para crianças, adolescentes e adultos</h1>
+                    <span className="text-primary text-lg md:text-xl font-semibold sm:max-w-[350px] lg:max-w-[600px]">Com atenção humana, técnica e individualizada, ajudamos você e sua família a superar desafios emocionais, comportamentais e de aprendizagem.</span>
                     <a className="w-fit px-4 bg-primary hover:bg-mid  text-warm py-2 rounded-2xl transition-colors duration-300" href="#">Agende sua avaliação</a>
                 </div>
             </div>

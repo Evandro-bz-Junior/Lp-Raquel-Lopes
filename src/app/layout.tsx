@@ -22,13 +22,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Header></Header>
+
       <body
         className={poppins.variable}
       >
+        <Header></Header>
         {children}
+        <Footer></Footer>
       </body>
-      <Footer></Footer>
+
     </html>
   );
 }
