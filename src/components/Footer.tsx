@@ -24,7 +24,7 @@ export default function Footer() {
 
                     <div className="w-80 md:w-64 flex flex-col gap-4 px-5 p-4">
                         <span>Local de atendimento:<br /> Rua dos Cajueiros, 1250, Nova Betânia, Mossoró/RN, CEP 59618-000.</span>
-                        <span>WhatsApp: (xx) xxxx-xxxx</span>
+                        <span>WhatsApp:  <a   href="https://wa.me/558496090800" target="_blank" rel="noopener noreferrer">(84)9609-0800</a></span>
                         <span>E-mail: contato@raquellopes.com</span>
                     </div>
                 </div>

@@ -25,7 +25,7 @@ export default function Depoimentos() {
             <div className='flex flex-col items-center gap-2'>
                 <span className='w-4/5  lg:w-full text-center'>Cada pessoa chega com uma história única  e ver essas mudanças acontecerem é o que mais me motiva</span>
                 <span className='w-4/5  lg:w-full text-center'>Se você também sente que é hora de buscar esse cuidado, estou aqui pra te acompanhar.</span>
-                <a className="px-4 w-fit bg-primary hover:bg-mid  text-warm py-2 rounded-2xl transition-colors duration-300" href="#">Agende sua avaliação</a>
+                <a className="px-4 w-fit bg-primary hover:bg-mid  text-warm py-2 rounded-2xl transition-colors duration-300" href="https://wa.me/558496090800" target="_blank" rel="noopener noreferrer">Agende sua avaliação</a>
             </div>
         </section  >
     );

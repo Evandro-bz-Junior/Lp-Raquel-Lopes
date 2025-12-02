@@ -9,9 +9,9 @@ export default function Hero() {
                     background: `
                 linear-gradient(
                     to bottom,
-                    transparent 25%,
-                    #cacaca 60%,
-                    #F9EAE3 70%
+                    transparent 35%,
+                    #cacaca 48%,
+                    #F9EAE3 80%
                 )
             `,
                 }}
@@ -27,7 +27,7 @@ export default function Hero() {
                 <img
                     src="/images/heroimg.png"
                     alt="Hero"
-                    className="h-[700px] md:h-full object-cover object-top-right"
+                    className="h-[700px] md:h-full object-cover object-right"
                 />
             </div>
 
@@ -39,7 +39,7 @@ export default function Hero() {
                 <div className="flex flex-col gap-4">
                     <h1 className="text-primary text-3xl font-bold leading-tight sm:max-w-[350px] lg:max-w-[500px]">Cuidados psicológicos personalizados para crianças, adolescentes e adultos</h1>
                     <span className="text-primary text-lg md:text-xl font-semibold sm:max-w-[350px] lg:max-w-[600px]">Com atenção humana, técnica e individualizada, ajudamos você e sua família a superar desafios emocionais, comportamentais e de aprendizagem.</span>
-                    <a className="w-fit px-4 bg-primary hover:bg-mid  text-warm py-2 rounded-2xl transition-colors duration-300" href="#">Agende sua avaliação</a>
+                    <a className="w-fit px-4 bg-primary hover:bg-mid  text-warm py-2 rounded-2xl transition-colors duration-300" href="https://wa.me/558496090800" target="_blank" rel="noopener noreferrer">Agende sua avaliação</a>
                 </div>
             </div>
 

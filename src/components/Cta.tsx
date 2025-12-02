@@ -8,7 +8,7 @@ export default function Cta() {
                 <span className='w-4/5 lg:w-full'>Se você tem sentido que é hora de buscar apoio seja emocional, comportamental ou cognitivo estou aqui para oferecer um atendimento humano, responsável e baseado em evidências.</span>
                 <span className='w-4/5 lg:w-full'>Vamos juntos compreender o que está acontecendo e construir caminhos mais leves e possíveis.</span>
             </div>
-            <a className="px-4 bg-warm hover:bg-primary  text-primary hover:text-warm border-2 border-primary py-2 rounded-2xl font-semibold transition-colors duration-300" href="#">Agendar avaliação pelo WhatsApp</a>
+            <a className="px-4 bg-warm hover:bg-primary  text-primary hover:text-warm border-2 border-primary py-2 rounded-2xl font-semibold transition-colors duration-300" href="https://wa.me/558496090800" target="_blank" rel="noopener noreferrer">Agendar avaliação pelo WhatsApp</a>
         </section>
     );
 }
