@@ -5,7 +5,7 @@ import defaultTheme from 'tailwindcss/defaultTheme'
 import animate from 'tailwindcss-animate'
 
 const config: Config = {
-  darkMode: ['class'], // shadcn/ui recomenda isso
+  darkMode: 'class', // shadcn/ui recomenda isso
   content: [
     './app/**/*.{ts,tsx,js,jsx,mdx}',
     './src/**/*.{ts,tsx,js,jsx,mdx}',
