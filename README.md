@@ -86,7 +86,7 @@ O projeto foi desenvolvido com foco em:
 git clone https://github.com/Evandro-bz-Junior/Lp-Raquel-Lopes
 
 # Entrar na pasta
-cd NOME-DO-REPO
+cd Lp-Raquel-Lopes
 
 # Instalar dependências
 npm install
