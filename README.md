@@ -49,12 +49,7 @@ Lista dos atendimentos oferecidos:
 ### **5. Rodapé**
 - Direitos autorais  
 - Links rápidos  
-
----
  
- 
----
-
 ## 🎯 Objetivos do Projeto
 
 - Criar uma presença digital profissional e confiável para psicóloga
@@ -62,20 +57,6 @@ Lista dos atendimentos oferecidos:
 - Otimizar para SEO (Google) e performance
 - Produzir uma interface limpa, acolhedora e responsiva
 - Servir como base para futuras expansões (blog, agenda, etc.)
-
----
-
-## 🔍 SEO & Performance
-
-O projeto foi desenvolvido com foco em:
-
-- **HTML semântico**
-- **Uso correto de H1, H2, H3**
-- **Meta tags otimizadas**
-- **Open Graph para compartilhamento**
-- **Imagens com Next/Image**
-- **Fonte otimizada via next/font**
-- **Otimização para Core Web Vitals**
 
 ---
 
