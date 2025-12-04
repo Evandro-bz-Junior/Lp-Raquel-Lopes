@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Landing Page – Psicóloga Raquel Lopes
 
-## Getting Started
+Este projeto é uma **Landing Page profissional** desenvolvida para apresentar os serviços psicológicos da psicóloga **Raquel Lopes (CRP 17/659)**, com foco em clareza, acolhimento, responsividade e otimização SEO.
 
-First, run the development server:
+Construída com **Next.js 14**, **React** e **TailwindCSS**, a página é leve, moderna e adaptada para dispositivos móveis, garantindo uma experiência fluida ao usuário.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **Next.js 14 (App Router)**
+- **React 18**
+- **TypeScript**
+- **TailwindCSS**
+- **Vercel (deploy)**
+- **CSS Utility-First**
+- **Otimização de Imagens**
+- **Responsividade Mobile-First**
+
+---
+
+## 🧩 Estrutura da Página
+
+A landing page possui as seguintes seções:
+
+### **1. Hero Section**
+- Apresentação da psicóloga
+- Chamada principal para atendimento
+- Botão para agendamento
+
+### **2. Sobre Mim**
+- História profissional da psicóloga
+- Texto acolhedor e humanizado
+- Imagem institucional com gradientes responsivos
+
+### **3. Serviços**
+Lista dos atendimentos oferecidos:
+- Avaliação Neuropsicológica  
+- Terapia Cognitivo-Comportamental (TCC)  
+- Intervenção ABA  
+- Orientação a responsáveis  
+- Atendimento para crianças e adolescentes  
+
+### **4. Contato / Agendamento**
+- Link direto para WhatsApp  
+- Localização (opcional)  
+- Meios de contato
+
+### **5. Rodapé**
+- Direitos autorais  
+- Links rápidos  
+
+---
+ 
+ 
+---
+
+## 🎯 Objetivos do Projeto
+
+- Criar uma presença digital profissional e confiável para psicóloga
+- Facilitar o acesso a informações sobre serviços e áreas de atuação
+- Otimizar para SEO (Google) e performance
+- Produzir uma interface limpa, acolhedora e responsiva
+- Servir como base para futuras expansões (blog, agenda, etc.)
+
+---
+
+## 🔍 SEO & Performance
+
+O projeto foi desenvolvido com foco em:
+
+- **HTML semântico**
+- **Uso correto de H1, H2, H3**
+- **Meta tags otimizadas**
+- **Open Graph para compartilhamento**
+- **Imagens com Next/Image**
+- **Fonte otimizada via next/font**
+- **Otimização para Core Web Vitals**
+
+---
+
+## 📦 Como Executar Localmente
 
 ```bash
+# Clonar repositório
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
+
+# Entrar na pasta
+cd NOME-DO-REPO
+
+# Instalar dependências
+npm install
+
+# Rodar projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
