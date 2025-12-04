@@ -83,7 +83,7 @@ O projeto foi desenvolvido com foco em:
 
 ```bash
 # Clonar repositório
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
+git clone https://github.com/Evandro-bz-Junior/Lp-Raquel-Lopes
 
 # Entrar na pasta
 cd NOME-DO-REPO
