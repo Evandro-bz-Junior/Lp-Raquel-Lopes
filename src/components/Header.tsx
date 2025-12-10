@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const links = [
-    { href: "#hero", label: "Início" },
+    { href: "#home", label: "Início" },
     { href: "#servicos", label: "Serviços" },
     { href: "#about", label: "Sobre" },
     { href: "#depoimentos", label: "Depoimentos" },

@@ -2,7 +2,7 @@
 
 export default function Hero() {
     return (
-        <section id="hero" className="w-full h-[800px] sm:h-[600px] relative overflow-hidden   items-center py-8">
+        <section id="home" className="w-full h-[800px] sm:h-[600px] relative overflow-hidden   items-center py-8">
             <div
                 className="absolute inset-0 z-20 sm:hidden"
                 style={{
