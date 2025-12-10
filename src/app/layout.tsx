@@ -7,12 +7,15 @@ import Footer from "@/components/Footer";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-poppins", // para usar com Tailwind
+  variable: "--font-poppins", 
 });
 
 export const metadata: Metadata = {
   title: "Psicóloga Raquel Lopes",
-  description: "Atendimento psicológico e neuropsicológico",
+  description: "Atendimento psicológico e neuropsicológico.",
+  keywords: ["psicologia", "neuropsicologia", "terapia", "psicóloga"],
+  authors: [{ name: "Raquel Lopes" }],
+  robots: "index, follow",
 };
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
 
       <body
         className={poppins.variable}
