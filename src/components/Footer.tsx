@@ -14,7 +14,7 @@ export default function Footer() {
                     <div className="w-80 md:w-64 flex flex-col gap-4 px-5 p-4">
                         <h6 className="font-bold">Links uteis</h6>
                         <nav className="flex  flex-wrap   gap-4 text-warm  ">
-                            <a href="#hero" className="hover:underline">Início</a>
+                            <a href="#home" className="hover:underline">Início</a>
                             <a href="#servicos" className="hover:underline">Serviços</a>
                             <a href="#about" className="hover:underline">Sobre</a>
                             <a href="#depoimentos" className="hover:underline">Depoimentos</a>
