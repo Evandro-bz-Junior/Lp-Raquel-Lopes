@@ -11,11 +11,58 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Psicóloga Raquel Lopes",
-  description: "Atendimento psicológico e neuropsicológico.",
-  keywords: ["psicologia", "neuropsicologia", "terapia", "psicóloga"],
+   metadataBase: new URL("https://raquellopes.vercel.app"),
+
+  title: "Raquel Lopes | Psicóloga e Neuropsicóloga em Mossoró",
+  description:
+    "Atendimento psicológico e avaliações neuropsicológicas para crianças, adolescentes e adultos. Cuidado acolhedor, técnico e individualizado em Mossoró–RN.",
+  
+  keywords: [
+    "psicóloga em Mossoró",
+    "psicóloga infantil",
+    "neuropsicologia",
+    "psicoterapia",
+    "TCC",
+    "psicóloga",
+    "avaliação neuropsicológica",
+    "psicologia clínica",
+    "psicologia infantil Mossoró",
+    "ABA",
+    "psicólogo Mossoró RN",
+  ],
+
   authors: [{ name: "Raquel Lopes" }],
+  creator: "Raquel Lopes",
+  publisher: "Raquel Lopes Psicologia",
+
   robots: "index, follow",
+
+  alternates: {
+    canonical: "https://raquellopes.vercel.app",
+  },
+
+  openGraph: {
+    title: "Raquel Lopes | Psicóloga e Neuropsicóloga",
+    description:
+      "Cuidados psicológicos e neuropsicológicos com acolhimento, técnica e individualidade.",
+    url: "https://raquellopes.vercel.app",
+    siteName: "Raquel Lopes Psicologia",
+    type: "website",
+    locale: "pt_BR",
+     
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Raquel Lopes | Psicóloga e Neuropsicóloga",
+    description:
+      "Atendimento psicológico e avaliações neuropsicológicas com acolhimento e técnica.",
+    
+  },
+
+  icons: {
+    icon: "images/icon.png",
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +72,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <head><meta name="google-site-verification" content="VKJb4ac7AdudI5tOGDPz0TdR3ZTgyVkgWcm-zHnNLUY" /></head>
+      <head><meta name="google-site-verification" content="VKJb4ac7AdudI5tOGDPz0TdR3ZTgyVkgWcm-zHnNLUY" />
+      </head>
       <body
         className={poppins.variable}
       >
