@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-poppins", 
+  variable: "--font-poppins",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-
+      <head><meta name="google-site-verification" content="VKJb4ac7AdudI5tOGDPz0TdR3ZTgyVkgWcm-zHnNLUY" /></head>
       <body
         className={poppins.variable}
       >
