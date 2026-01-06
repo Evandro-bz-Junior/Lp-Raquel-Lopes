@@ -11,12 +11,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-   metadataBase: new URL("https://raquellopes.vercel.app"),
+  metadataBase: new URL("https://raquellopes.vercel.app"),
 
   title: "Raquel Lopes | Psicóloga e Neuropsicóloga em Mossoró",
   description:
     "Atendimento psicológico e avaliações neuropsicológicas para crianças, adolescentes e adultos. Cuidado acolhedor, técnico e individualizado em Mossoró–RN.",
-  
+
   keywords: [
     "psicóloga em Mossoró",
     "psicóloga infantil",
@@ -57,7 +57,14 @@ export const metadata: Metadata = {
     siteName: "Raquel Lopes Psicologia",
     type: "website",
     locale: "pt_BR",
-     
+    images: [
+      {
+        url: "https://raquellopes.vercel.app/images/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Raquel Lopes | Psicóloga e Neuropsicóloga em Mossoró",
+      },
+    ],
   },
 
   twitter: {
@@ -65,7 +72,7 @@ export const metadata: Metadata = {
     title: "Raquel Lopes | Psicóloga e Neuropsicóloga",
     description:
       "Atendimento psicológico e avaliações neuropsicológicas com acolhimento e técnica.",
-    
+    images: ["https://raquellopes.vercel.app/images/og-image.jpg"],
   },
 
   icons: {
