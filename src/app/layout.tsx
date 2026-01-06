@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     images: [
       {
-        url: "https://raquellopes.vercel.app/images/og-image.jpg",
+        url: "https://raquellopes.vercel.app/images/og-image.png",
         width: 1200,
         height: 630,
         alt: "Raquel Lopes | Psicóloga e Neuropsicóloga em Mossoró",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     title: "Raquel Lopes | Psicóloga e Neuropsicóloga",
     description:
       "Atendimento psicológico e avaliações neuropsicológicas com acolhimento e técnica.",
-    images: ["https://raquellopes.vercel.app/images/og-image.jpg"],
+    images: ["https://raquellopes.vercel.app/images/og-image.png"],
   },
 
   icons: {
