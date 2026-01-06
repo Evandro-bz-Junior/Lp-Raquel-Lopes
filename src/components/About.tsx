@@ -5,7 +5,7 @@ export default function About() {
         <section id="about" className="relative w-full h-[850px] md:h-[650px] lg:h-[550px] overflow-hidden">
 
             <div className="absolute lg:left-0 md:top-0   h-full -left-20 md:right-0 -top-40    ">
-                <img src="/images/aboutImage.png" className="h-[700px] md:w-full md:h-full object-cover object-left " />
+                <img src="/images/aboutImage.png" alt="Psicóloga em Mossoró – Raquel Lopes - About-image" className="h-[700px] md:w-full md:h-full object-cover object-left " />
             </div>
             <div
                 className="absolute inset-0 z-20 sm:hidden"

@@ -26,7 +26,7 @@ export default function Hero() {
             <div className="  absolute -right-20 -top-32  md:right-0 md:top-0 h-full z-10  ">
                 <img
                     src="/images/heroImg.png"
-                    alt="Hero Image"
+                    alt="Home-Image"
                     className="h-[700px] md:h-full object-cover object-right"
                 />
             </div>
